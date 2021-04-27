@@ -59,3 +59,4 @@ This application has a custom middleware EnsureCustomGuardIsVerified that can be
 Don't use @auth or @guest directives for default guard, use Auth::guard('web')->check() with @if instead.
 
 Admin and Default routes are seperated and all the admin routes are prefixed by admin.
+# Laravel-7-Multi-Auth-System-One-to-One-Permission
