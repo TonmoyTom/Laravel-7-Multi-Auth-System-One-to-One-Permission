@@ -1,6 +1,6 @@
-Laravel 7 Application with Multiple Authentication One To One Permissions
+Laravel 7 Application with Multiple Authentication One To One Permissions.
 
-Laravel 7 application with admin guard. You can even use this application for your projects if you need multiple guards. Getting this app up and running
+Laravel 7 Application with Multiple Authentication One To One Permissions. You can even use this application for your projects if you need multiple guards. Getting this app up and running
 
   *Make sure you already have xampp installed (easy to use).
 
@@ -54,6 +54,19 @@ laravel application with admin guard. You can even use this application for your
             {guard:Admin}/Profile
             {guard:Admin}/Profile/Edit With Ajax
             {guard:Admin}/Profile/Change Password With Ajax
+            {guard:Admin}/alladmins
+            {guard:Admin}/userspermissions
+            {guard:Admin}/users/create
+            {guard:Admin}/users/edit/
+            {guard:Admin}/users/delete
+            
+            
+       Role
+            {guard:Admin}/allroles
+            {guard:Admin}/create/roles
+            {guard:Admin}/roles/edit
+            {guard:Admin}/roles/delete
+       
 
 Usage
 
