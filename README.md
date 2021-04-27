@@ -9,6 +9,10 @@ Laravel 7 application with admin guard. You can even use this application for yo
  *Install Composer first, then run this command in your command-line (you should be inside your project directory).
 
             composer install
+            
+You can install the package via composer:
+
+            composer require spatie/laravel-permission
 
 Rename .env.example to .env and add your database.
 
