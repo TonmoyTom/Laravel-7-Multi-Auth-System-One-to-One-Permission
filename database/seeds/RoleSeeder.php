@@ -38,9 +38,9 @@ class RoleSeeder extends Seeder
                     'admins.all',
                     'admins.create',
                     'admins.store',
-                    'admin.edit',
+                    'admins.edit',
                     'admins.update',
-                    'admin.delete',
+                    'admins.delete',
                     
                 ]
             ],
