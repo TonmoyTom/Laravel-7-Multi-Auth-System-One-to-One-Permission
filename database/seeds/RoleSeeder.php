@@ -23,14 +23,7 @@ class RoleSeeder extends Seeder
 
         $permissions = [
 
-            [
-                'group_name' => 'dashboard',
-                'permissions' => [
-                    'admin.dashboard',
-                   
-                ]
-
-            ],
+            
             [
                 'group_name' => 'admin',
                 'permissions' => [
