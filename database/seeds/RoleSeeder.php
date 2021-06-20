@@ -22,6 +22,16 @@ class RoleSeeder extends Seeder
         //permission
 
         $permissions = [
+            
+             [
+                'group_name' => 'dashboard',
+                'permissions' => [
+                    // admin Permissions
+                    'admin.dashboard',
+                    
+                    
+                ]
+            ],
 
             
             [
@@ -65,5 +75,10 @@ class RoleSeeder extends Seeder
         }
        
        }
+        DB::table('model_has_roles')->insert([
+         'role_id' => 1,
+         'model_type' => 'App\Admin',
+         'model_id' => 1
+        ]);
     }
 }
