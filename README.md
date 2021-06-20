@@ -30,13 +30,6 @@ Create Seed tables AdminSeed & RoleSeed.
 
             php artisan db:seed
             
-            
-Your Database  Table: model_has_roles Create Data
-
-                                    role_id  |   model_type | model_id
-                    SuperAdmin(1)=      1         App\Admin       1
-
-SuperAdmin(1) = role_id(1) Same.
 
 Start the development server.
 
